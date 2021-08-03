@@ -1,0 +1,23 @@
+{
+    "name": "ziyoren/openapi-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liao Jianshan",
+            "email": "10775937@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "ziyoren\\Openapi\\": "src/"
+        },
+        "files": [
+          "src/Functions.php"
+        ]
+      },
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": ">=6.5.5",
+        "ziyoren/openapi-interfaces": ">=0.0.2"
+    }
+}
